@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "Chomsky";
+    src: url("/fonts/Chomsky.woff") format("woff"),
+         url("/fonts/Chomsky.woff2") format("woff2");
+}
+
+      div {
+    column-gap: 20px;
+    column-rule-width: 1px;
+    column-rule-style: dotted; 
+    column-rule-color: #000;
+    width: 940px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-family: "Chomsky", sans-serif;
+    font-size: 96px;
+    text-align: center;
+    border-bottom: 1px ;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+p{
+    color: gray;
+}
+
+.menu {
+    font-size: 20px;
+    text-align: left;
+    word-spacing: 10px;
+    color: #000;
+}
+
+.columns_one{
+    column-count: 3;
+   }
+
+.columns_two{
+    column-count: 2;
+   }
+
+.columns_three{
+    column-count: 4;
+   }
+
+.columns_four{
+    column-count: 1;
+   }
+
+   .text_one{
+    column-span: 1;
+   }
+
+   .text_two{
+    column-span: 1;
+   }
+
+   
+
+   .text_three{
+    column-span: 1;
+   }
+
+   .text_four{
+    column-span: 1;
+   }
+
+   hr {
+       color: #000;
+   }
+
+   .text_end {
+    text-align: center;
+   }
